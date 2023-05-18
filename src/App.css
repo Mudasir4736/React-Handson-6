@@ -36,3 +36,80 @@
     transform: rotate(360deg);
   }
 }
+body{
+  background-color: rgb(160, 20, 79);
+ 
+}
+button{
+  background-color: blue;
+  font-size: x-large;
+  border-radius: 20px;
+  
+  }
+  nav{
+    display: flex;
+    justify-content: space-around;
+    text-decoration: none;
+    font-size: 50px;
+    font-weight: bold;
+    background-color: rgb(78,156,225);
+  }
+  .navbar a.active{
+
+    text-decoration: none;
+    color: brown;
+    
+  }
+  .Student-Header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+table{
+  font-size: 30px;
+}
+.AddStd_Form{
+  display: flex;
+  justify-content: space-around;
+  width: 700px;
+  flex-wrap: wrap;
+  
+}
+input{
+  font-size: x-large;
+  margin: 20px;
+}
+.Addstdform_container{
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+.Update_form{
+  display: flex;
+  justify-content: space-around;
+  width: 700px;
+  flex-wrap: wrap;
+}
+.updateform_container{
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+@media only screen and (max-width: 768px) {
+  nav{
+   
+    font-size: 20px;
+    
+    background-color:blueviolet;
+  }
+  table{
+    font-size: 15px;
+  }
+  button{
+    background-color: blue;
+    font-size:10px;
+    border-radius: 20px;
+    
+    }
+}
